@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/c2fc12888c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <p class="header__logo">Bizland<span>.</span></p>
+        <ul class="nav__list">
+          <li class="nav__items">
+            <a href="#home" class="nav__link active">home</a>
+          </li>
+          <li class="nav__items">
+            <a href="#about" class="nav__link">about</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">services</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">portofolio</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link">team</a>
+          </li>
+          <li class="nav__items">
+            <a href="#" class="nav__link drop-link"
+              ><span>drop down</span>
+              <i class="fa-solid fa-angle-down arrow-down-icon"></i>
+            </a>
+          </li>
+          <li class="nav__items">
+            <a href="#contact" class="nav__link">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="section__hero" id="home">
+      <div class="container">
+        <h1 class="heading-1">Welcome to <span>BizLand</span></h1>
+        <p class="hero__p">
+          We are team of talanted designers making websites with Bootstrap
+        </p>
+        <div class="btns">
+          <button class="btn btn-start">Get started</button>
+          <button class="btn btn-watch">
+            <i class="fa-solid fa-play icon-play"></i>
+            Watch video
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="section__about" id="about">
+      <div class="about__details">
+        <p class="about">About</p>
+        <h2 class="heading-2">find out more <span>about us</span></h2>
+        <p class="about-p">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          veritatis soluta accusantium beatae, magnam vel fugiat a quo
+          repellendus impedit qui temporibus architecto culpa tempora, rerum
+          quia tempore eligendi dolor!
+        </p>
+      </div>
+      <div class="grid__container">
+        <div class="space"></div>
+        <div class="grid__photo">
+          <img src="img/students.jpg" alt="studens" class="about__img" />
+        </div>
+        <article class="about__article">
+          <h3 class="heading-3">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </h3>
+          <p class="about__article-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+            neque quisquam iure inventore aliquid ratione doloremque quae dolor
+            quo aut.
+          </p>
+          <div class="about__article__features">
+            <div class="feature">
+              <div class="feature-icon__container">
+                <svg class="feature-icon">
+                  <use xlink:href="img/sprite.svg#icon-shop"></use>
+                </svg>
+              </div>
+              <div class="feature-p">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+                  dolorem delectus
+                </p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon__container">
+                <svg class="feature-icon">
+                  <use xlink:href="img/sprite.svg#icon-pictures"></use>
+                </svg>
+              </div>
+              <div class="feature-p">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum
+                  dolorem delectus
+                </p>
+              </div>
+            </div>
+          </div>
+          <p class="article__footer">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt velit
+            in totam tempore nulla ex quas dolorem perspiciatis fugiat deleniti
+            repellat consequuntur, at quaerat impedit odio dicta provident
+            aperiam. Sequi.
+          </p>
+        </article>
+        <div class="space"></div>
+      </div>
+    </section>
+    <section class="section__media">
+      <div class="video__container">
+        <video class="video" autoplay muted loop>
+          <source
+            src="img/pexels-moti-segev-18265707 (720p).mp4"
+            type="video/mp4"
+          />
+          <source
+            src="img/pexels-moti-segev-18265707 (720p).webm"
+            type="video/webm"
+          />
+          Video has been stopped during an error
+        </video>
+      </div>
+      <div class="audio__container">
+        <audio
+          class="audio"
+          controls
+          controlslist="nodownload noremoteplayback"
+          preload="metadata"
+          canplaythrough
+        >
+          <source src="img/audio.mp3" type="audio/mpeg" />
+          <source src="img/audio.ogg" type="audio/ogg" />
+        </audio>
+      </div>
+    </section>
+
+    <section class="section__bars">
+      <div class="bars__container">
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">html</span>
+            <span class="course__progress">80%</span>
+          </div>
+          <div class="course__bar html__bar"></div>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">css</span>
+            <span class="course__progress">90%</span>
+          </div>
+          <div class="course__bar css__bar"></div>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">javascript</span>
+            <span class="course__progress">75%</span>
+          </div>
+          <div class="course__bar js__bar"></div>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">php</span>
+            <span class="course__progress">50%</span>
+          </div>
+          <div class="course__bar php__bar"></div>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">wordpress</span>
+            <span class="course__progress">45%</span>
+          </div>
+          <div class="course__bar wp__bar"></div>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">photoshop</span>
+            <span class="course__progress">55%</span>
+          </div>
+          <div class="course__bar ps__bar"></div>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">drive(c:)</span>
+          </div>
+          <div class="course__bar c__meter"></div>
+          <span class="disk__space">89.5 Gb free of 500 gb</span>
+        </div>
+        <div class="course">
+          <div class="course__details">
+            <span class="course__name">drive(d:)</span>
+          </div>
+          <div class="course__bar d__meter"></div>
+          <span class="disk__space">57.2 Gb free of 293 gb</span>
+        </div>
+      </div>
+
+      <div class="metrics__container"></div>
+    </section>
+
+    <section class="section__form__map" id="contact">
+      <div class="form__map__container">
+        <!-- <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19982.828946512844!2d7.445699615357383!3d46.943440703868326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39aed50fb357%3A0xa4ce662318285706!2sgra%C2%B7vida%20Hebammenarbeit!5e0!3m2!1sen!2seg!4v1696186573783!5m2!1sen!2seg"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe> -->
+        <form action="#" class="form">
+          <div>
+            <input type="text" class="input__name" placeholder="your name" />
+            <input type="email" class="input__email" placeholder="your email" />
+          </div>
+          <input type="text" class="input__subject" placeholder="subject" />
+          <textarea
+            class="textarea"
+            name="form-textarea"
+            cols="100"
+            rows="10"
+            placeholder="message"
+          >
+          </textarea>
+          <input type="submit" value="Send Message" class="btn btn-submit" />
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="copyrights">
+        &copy; Copyright <span style="color: blue">BizLand</span>.All Rights
+        Reserved
+      </p>
+      <p class="designer">Designed by <a href="#">bootstrapMADE</a></p>
+    </footer>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
